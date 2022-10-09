@@ -10,7 +10,7 @@ export const client = new createClient({
 
 export const Profile = `
 query Profile {
-  profile(request: { profileId: "0x81" }) {
+  profile(request: { profileId: "0x07" }) {
     id
     name
     bio
